@@ -1,0 +1,27 @@
+- name: Update DNS hosts against local nameserver
+  hosts: dns
+  become: true
+  tasks:
+    - name: Copy hosts file to nameserver
+      ansible.builtin.copy:
+        src: ./hosts
+        dest: /etc/hosts
+        owner: root
+        group: root
+        mode: '0644'
+      notify: Restart Pi-Hole
+
+    - name: Copy Dnsmasq config to nameserver
+      ansible.builtin.copy:
+        src: ./hosts
+        dest: /etc/dnsmasq.d/99-custom.conf
+        owner: root
+        group: root
+        mode: '0644'
+      notify: Restart Pi-Hole
+
+  handlers:
+    - name: Restart Pi-Hole
+      ansible.builtin.service:
+        name: pihole-FTL
+        state: restarted
