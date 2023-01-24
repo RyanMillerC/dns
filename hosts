@@ -18,6 +18,8 @@ ff02::2         ip6-allrouters
 10.0.2.49       debian.taco.moe
 10.0.2.50       vpn2.taco.moe
 
+10.10.10.10     dns.taco.moe
+
 # k3s Apps
 10.0.2.2        ca.taco.moe
 10.0.2.2        ha.taco.moe
