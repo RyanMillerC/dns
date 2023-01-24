@@ -1,0 +1,57 @@
+127.0.0.1       localhost
+::1             localhost ip6-localhost ip6-loopback
+ff02::1         ip6-allnodes
+ff02::2         ip6-allrouters
+
+# Add DNS entries below. Wildcards are NOT supported here!
+# For wildcard DNS, see: https://stackoverflow.com/a/20446931
+192.168.1.1     router.taco.moe
+172.16.1.6      vpn.taco.moe
+10.0.2.2        bean.taco.moe
+10.0.2.6        beef.taco.moe
+10.0.2.7        rhv.taco.moe
+10.0.2.9        ws.taco.moe
+10.0.2.12       guac.taco.moe
+10.0.2.24       gitlab.taco.moe
+10.0.2.28       serco.taco.moe
+10.0.2.31       rhel7.taco.moe
+10.0.2.49       debian.taco.moe
+10.0.2.50       vpn2.taco.moe
+
+# k3s Apps
+10.0.2.2        ca.taco.moe
+10.0.2.2        ha.taco.moe
+10.0.2.2        git.taco.moe
+10.0.2.2        registry.taco.moe
+10.0.2.2        unifi.taco.moe
+10.0.2.2        pihole.taco.moe
+
+# OCP - RHV Full cluster
+10.0.2.101      api.ocp.taco.moe
+10.0.2.101      api-int.ocp.taco.moe
+10.0.2.100      apps.ocp.taco.moe
+10.0.2.100      ocp.taco.moe
+
+# SNO - Dev
+10.0.2.32       api.dev.taco.moe
+10.0.2.32       api-int.dev.taco.moe
+10.0.2.32       apps.dev.taco.moe
+10.0.2.32       dev.taco.moe
+
+# SNO - Hub
+10.0.2.30       api.hub.taco.moe
+10.0.2.30       api-int.hub.taco.moe
+10.0.2.30       apps.hub.taco.moe
+10.0.2.30       hub.taco.moe
+
+# SNO - Sandbox
+10.0.2.15       api.sandbox.taco.moe
+10.0.2.15       api-int.sandbox.taco.moe
+10.0.2.15       apps.sandbox.taco.moe
+10.0.2.15       sandbox.taco.moe
+
+# SNO - Stage
+10.0.2.33       api.stage.taco.moe
+10.0.2.33       api-int.stage.taco.moe
+10.0.2.33       apps.stage.taco.moe
+10.0.2.33       stage.taco.moe
