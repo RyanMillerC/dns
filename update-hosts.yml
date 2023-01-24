@@ -13,7 +13,7 @@
 
     - name: Copy Dnsmasq config to nameserver
       ansible.builtin.copy:
-        src: ./hosts
+        src: ./dnsmasq.conf
         dest: /etc/dnsmasq.d/99-custom.conf
         owner: root
         group: root
