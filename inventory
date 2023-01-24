@@ -1,2 +1,5 @@
+# Use IP instead of dns.taco.moe, because if DNS is borked, you'll have to
+# use the IP anyways.
+
 [dns]
-dns.taco.moe
+10.10.10.10
