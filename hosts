@@ -15,7 +15,8 @@ ff02::2         ip6-allrouters
 10.0.2.28       serco.taco.moe
 10.0.2.31       rhel7.taco.moe
 10.0.2.49       debian.taco.moe
-10.0.2.55       vpn.taco.moe
+10.0.2.52       vpn.taco.moe
+10.0.2.53       workstation.taco.moe
 10.0.2.60       nas.taco.moe
 
 10.10.10.10     dns.taco.moe
