@@ -6,6 +6,7 @@ ff02::2         ip6-allrouters
 # Add DNS entries below. Wildcards are NOT supported here!
 # For wildcard DNS, see: https://stackoverflow.com/a/20446931
 192.168.1.1     router.taco.moe
+192.168.1.193   mac2.taco.moe
 10.0.2.2        bean.taco.moe
 10.0.2.6        beef.taco.moe
 10.0.2.7        rhv.taco.moe
@@ -17,7 +18,9 @@ ff02::2         ip6-allrouters
 10.0.2.49       debian.taco.moe
 10.0.2.52       vpn.taco.moe
 10.0.2.53       workstation.taco.moe
+10.0.2.54       k3s.taco.moe
 10.0.2.60       nas.taco.moe
+
 
 10.10.10.10     dns.taco.moe
 
