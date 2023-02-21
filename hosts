@@ -31,6 +31,7 @@ ff02::2         ip6-allrouters
 10.0.2.2        registry.taco.moe
 10.0.2.2        unifi.taco.moe
 10.0.2.2        pihole.taco.moe
+10.0.2.2        bitwarden.taco.moe
 
 # SNO - Hub
 10.0.2.58       api.hub.taco.moe
