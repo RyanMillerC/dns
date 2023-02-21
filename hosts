@@ -32,32 +32,8 @@ ff02::2         ip6-allrouters
 10.0.2.2        unifi.taco.moe
 10.0.2.2        pihole.taco.moe
 
-# OCP - RHV Full cluster
-10.0.2.101      api.ocp.taco.moe
-10.0.2.101      api-int.ocp.taco.moe
-10.0.2.100      apps.ocp.taco.moe
-10.0.2.100      ocp.taco.moe
-
-# SNO - Dev
-10.0.2.32       api.dev.taco.moe
-10.0.2.32       api-int.dev.taco.moe
-10.0.2.32       apps.dev.taco.moe
-10.0.2.32       dev.taco.moe
-
 # SNO - Hub
-10.0.2.30       api.hub.taco.moe
-10.0.2.30       api-int.hub.taco.moe
-10.0.2.30       apps.hub.taco.moe
-10.0.2.30       hub.taco.moe
-
-# SNO - Sandbox
-10.0.2.15       api.sandbox.taco.moe
-10.0.2.15       api-int.sandbox.taco.moe
-10.0.2.15       apps.sandbox.taco.moe
-10.0.2.15       sandbox.taco.moe
-
-# SNO - Stage
-10.0.2.33       api.stage.taco.moe
-10.0.2.33       api-int.stage.taco.moe
-10.0.2.33       apps.stage.taco.moe
-10.0.2.33       stage.taco.moe
+10.0.2.58       api.hub.taco.moe
+10.0.2.58       api-int.hub.taco.moe
+10.0.2.58       apps.hub.taco.moe
+10.0.2.58       hub.taco.moe
