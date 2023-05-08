@@ -24,6 +24,7 @@ ff02::2         ip6-allrouters
 # k3s Apps
 10.0.2.2        ca.taco.moe
 10.0.2.2        ha.taco.moe
+10.0.2.2        homer.taco.moe
 10.0.2.2        git.taco.moe
 10.0.2.2        registry.taco.moe
 10.0.2.2        unifi.taco.moe
