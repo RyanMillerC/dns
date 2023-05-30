@@ -21,6 +21,13 @@ ff02::2         ip6-allrouters
 10.0.2.54       k3s.taco.moe
 10.0.2.57       dev.taco.moe
 
+# AAP Lab
+10.0.2.59       aap-exec-1.taco.moe
+10.0.2.61       aap-controller.taco.moe
+10.0.2.62       aap-db.taco.moe
+10.0.2.63       aap-hub.taco.moe
+10.0.2.64       aap-exec-2.taco.moe
+
 # k3s Apps
 10.0.2.2        bitwarden.taco.moe
 10.0.2.2        ca.taco.moe
