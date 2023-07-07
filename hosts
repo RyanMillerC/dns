@@ -40,7 +40,7 @@ ff02::2         ip6-allrouters
 10.0.2.2        unifi.taco.moe
 
 # SNO - Hub
-10.0.2.58       api-int.hub.taco.moe
 10.0.2.58       api.hub.taco.moe
+10.0.2.58       api-int.hub.taco.moe
 10.0.2.58       apps.hub.taco.moe
 10.0.2.58       hub.taco.moe
