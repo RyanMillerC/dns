@@ -35,6 +35,7 @@ ff02::2         ip6-allrouters
 10.0.2.2        git.taco.moe
 10.0.2.2        ha.taco.moe
 10.0.2.2        homer.taco.moe
+10.0.2.2        mermaid.taco.moe
 10.0.2.2        pihole.taco.moe
 10.0.2.2        registry.taco.moe
 10.0.2.2        unifi.taco.moe
