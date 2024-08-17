@@ -22,6 +22,8 @@ ff02::2         ip6-allrouters
 10.0.2.57       dev.taco.moe
 10.0.2.65       rhel8.taco.moe
 10.0.2.67       windows-11.taco.moe
+10.0.2.68       proxy.taco.moe
+10.0.2.69       isolated.taco.moe
 
 # AAP Lab
 10.0.2.59       aap-exec-1.taco.moe
