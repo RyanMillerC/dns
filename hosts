@@ -3,20 +3,13 @@
 ff02::1         ip6-allnodes
 ff02::2         ip6-allrouters
 
-# Add DNS entries below. Wildcards are NOT supported here!
-# Instead, add wildcard entries to dnsmasq.conf.
+#
+# Wildcards are NOT supported here! Add wildcard entries to dnsmasq.conf.
+#
 
-# Physical Machines
 10.10.10.10     dns.taco.moe
 192.168.0.2	unifi.taco.moe
 192.168.0.100	bean.taco.moe
-192.168.0.101	nas.taco.moe
-
-# VMs
-192.168.0.102	vpn.taco.moe
-192.168.0.103	workstation.taco.moe
-
-# k3s Apps
 192.168.0.100	bitwarden.taco.moe
 192.168.0.100	ca.taco.moe
 192.168.0.100	git.taco.moe
@@ -26,30 +19,30 @@ ff02::2         ip6-allrouters
 192.168.0.100	mqtt.taco.moe
 192.168.0.100	pihole.taco.moe
 192.168.0.100	registry.taco.moe
+192.168.0.101	nas.taco.moe
+192.168.0.102	vpn.taco.moe
+192.168.0.103	workstation.taco.moe
+192.168.0.104	caseta.taco.moe
+192.168.0.105	hue-1.taco.moe
+192.168.0.106	hue-2.taco.moe
+192.168.0.107	aap.taco.moe
+192.168.0.107	aap-controller.taco.moe
+192.168.0.108	aap-db.taco.moe
+192.168.0.109	aap-exec-1.taco.moe
+192.168.0.110	aap-exec-2.taco.moe
+192.168.0.111	aap-hub.taco.moe
 
 # --- OLD ---
-# 
-# 192.168.1.1     router.taco.moe
-# 
-# 10.0.2.6        beef.taco.moe
-# 192.168.1.193   mac2.taco.moe
-# 
 # 10.0.2.54       k3s.taco.moe
 # 10.0.2.57       dev.taco.moe
+# 10.0.2.58       api-int.hub.taco.moe
+# 10.0.2.58       api.hub.taco.moe
+# 10.0.2.58       apps.hub.taco.moe
+# 10.0.2.58       hub.taco.moe
+# 10.0.2.6        beef.taco.moe
 # 10.0.2.65       rhel8.taco.moe
 # 10.0.2.67       windows-11.taco.moe
 # 10.0.2.68       proxy.taco.moe
 # 10.0.2.69       isolated.taco.moe
-# 
-# # AAP Lab
-# 10.0.2.59       aap-exec-1.taco.moe
-# 10.0.2.61       aap-controller.taco.moe
-# 10.0.2.62       aap-db.taco.moe
-# 10.0.2.63       aap-hub.taco.moe
-# 10.0.2.64       aap-exec-2.taco.moe
-# 
-# # SNO - Hub
-# 10.0.2.58       api.hub.taco.moe
-# 10.0.2.58       api-int.hub.taco.moe
-# 10.0.2.58       apps.hub.taco.moe
-# 10.0.2.58       hub.taco.moe
+# 192.168.1.1     router.taco.moe
+# 192.168.1.193   mac2.taco.moe
