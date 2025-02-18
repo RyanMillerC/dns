@@ -19,6 +19,7 @@ ff02::2         ip6-allrouters
 192.168.0.100	mqtt.taco.moe
 192.168.0.100	pihole.taco.moe
 192.168.0.100	registry.taco.moe
+192.168.0.100	vault.taco.moe
 192.168.0.101	nas.taco.moe
 192.168.0.102	vpn.taco.moe
 192.168.0.103	workstation.taco.moe
