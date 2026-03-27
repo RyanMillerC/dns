@@ -32,6 +32,8 @@ ff02::2         ip6-allrouters
 192.168.0.109	aap-exec-1.taco.moe
 192.168.0.110	aap-exec-2.taco.moe
 192.168.0.111	aap-hub.taco.moe
+192.168.0.112	beef.taco.moe
+192.168.0.113	ocp.taco.moe api.ocp.taco.moe apps.ocp.taco.moe
 
 # --- OLD ---
 # 10.0.2.54       k3s.taco.moe
